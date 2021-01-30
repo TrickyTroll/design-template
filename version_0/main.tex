@@ -1,0 +1,33 @@
+\documentclass[12pt]{article}
+\usepackage[french]{babel}
+\usepackage{changepage}
+\usepackage{stackengine}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage[nottoc]{tocbibind}
+
+\graphicspath{ {./img/} }
+\usepackage{array}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\begin{document}
+	
+\import{./assets}{page_presentation.tex}
+\section{Introduction}
+
+\import{./}{intro.tex}
+\section{Description}
+\import{./}{description.tex}
+
+%\bibliographystyle{unsrt}
+%\bibliography{bibliographie}
+
+\end{document}
