@@ -1,0 +1,31 @@
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.fls
+*.fdb_latexmk
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
+*.lb
+# Compiled pdfs
+*.pdf
+
+# MacOS stuff
+*.DS_Store
