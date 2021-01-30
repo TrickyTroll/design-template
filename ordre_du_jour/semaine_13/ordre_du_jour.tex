@@ -1,0 +1,77 @@
+% !TEX TS-program = LuaLaTeX
+% Exemple d'ordre du jour
+% par Pierre Tremblay, Universite Laval
+% modifie par Christian Gagne, Universite Laval
+% 2011/01/14 - version 1.4
+% modifié par Robert Bergevin, Université Laval
+% 24/11/2011
+% modifié par Jean-Yves Chouinard, Université Laval
+% 2016/01/11
+% modifié par Jean-Yves Chouinard, Université Laval
+% 2017/01/04
+%
+
+%--------------------------------------------------------------------------------------
+%------------------------------------- preambule --------------------------------------
+%--------------------------------------------------------------------------------------
+\documentclass[12pt]{../ULojpv}
+
+% Chargement des packages supplementaires
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{import}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+% Definitions des parametres de l'en-tete
+\Cours{GEL -- 1001 Design I (méthodologie)}             % Nom du cours
+\NumeroEquipe{04}                                     % Numero de l'equipe
+\NomEquipe{SécuritAIR}                               % Nom de l'equipe
+\Objet{Ordre du jour}                                 % Nom du document
+\SujetRencontre{Organisation et planification}        % Sujet de la rencontre
+\DateRencontre{2020/01/28}                            % Date de la rencontre
+\LocalRencontre{Teams}                            % Local de la rencontre
+\HeureRencontre{13h30-15h00}                          % Heure de la rencontre
+
+%--------------------------------------------------------------------------------------
+%--------------------------------- corps du document ----------------------------------
+%--------------------------------------------------------------------------------------
+\begin{document}
+\entete
+\begin{enumerate}
+   \item \textbf{Ouverture de la réunion}
+   \item \textbf{Nomination ou confirmation du président et du secrétaire}
+   \item \textbf{Lecture et adoption de l'ordre du jour}
+   \item \textbf{Lecture et adoption du procès-verbal de la réunion du 12 janvier 2017}
+   \item \textbf{Affaires découlant du procès-verbal}
+      \begin{enumerate}
+         \item Affaire \#1
+            \begin{enumerate}
+               \item Sous-affaire \#1
+               \item Sous-affaire \#2
+            \end{enumerate}
+         \item Affaire \#2
+      \end{enumerate}
+   \item \textbf{Points à traiter}
+   \begin{enumerate}
+      \item \import{./membres/}{etienne.tex} 
+      \item \import{./membres/}{gael.tex} 
+      \item \import{./membres/}{jonathan.tex} 
+      \item \import{./membres/}{francis.tex} 
+      \item \import{./membres/}{charles.tex} 
+      \item \import{./membres/}{philippe.tex} 
+      \item \import{./membres/}{yasser.tex} 
+      \item \import{./membres/}{thomas.tex} 
+   \end{enumerate}
+   \item \textbf{Divers}
+   \item \textbf{Répartition des tâches}
+   \item \textbf{Évaluation de la réunion}
+   \item \textbf{Date, heure, lieu et objectif de la prochaine réunion}
+   \item \textbf{Fermeture de la réunion}
+\end{enumerate}
+
+\end{document}
+
