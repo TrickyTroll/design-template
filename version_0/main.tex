@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,ULlof,ULlot]{ULrapport}
 \usepackage[french]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -18,14 +18,34 @@
     filecolor=magenta,      
     urlcolor=cyan,
 }
+\newcommand{\cellulemultiligne}[1]{\begin{tabular}{@{}c@{}}#1\end{tabular}}
+
+
+\newcolumntype{Z}[3]{>{#1\hspace{0pt}\arraybackslash}#2{#3}}
+
+% Definitions des parametres de la page titre
+\TitreProjet{Titre du projet}                         % Titre du projet
+\TitreRapport{Rapport de projet -- version 0}                       % Titre du rapport
+\Destinataire{Robert Bergevin, Luc Lamontagne et Simon Thibault}         % Nom(s) du destinataire
+\NumeroEquipe{99}                                     % Numero de l'equipe
+\NomEquipe{Les Gaulois}                               % Nom de l'equipe
+\TableauMembres{%                                     % Tableau des membres de l'equipe
+   111\,111\,111  & Abraracourcix    & \\\hline        % matricule & nom & \\\hline
+   222\,222\,222  & Bonemine         & \\\hline        % matricule & nom & \\\hline
+   333\,333\,333  & Falbala          & \\\hline        % matricule & nom & \\\hline
+   444\,444\,444  & Iélosubmarine    & \\\hline        % matricule & nom & \\\hline
+   555\,555\,555  & Ordralphabétix   & \\\hline        % matricule & nom & \\\hline
+   666\,666\,666  & Tragicomix       & \\\hline        % matricule & nom & \\\hline
+}
+\DateRemise{\today}
 
 \begin{document}
 	
 \import{./assets}{page_presentation.tex}
-\section{Introduction}
+\chapter{Introduction}
 
 \import{./}{intro.tex}
-\section{Description}
+\chapter{Description}
 \import{./}{description.tex}
 
 %\bibliographystyle{unsrt}
