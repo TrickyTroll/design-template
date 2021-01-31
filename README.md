@@ -1,6 +1,8 @@
 # design-template
 
-Bienvenue sur la page du template LaTeX pour le cours GEL-1001. **Ce template n’est pas officiel.** Il est maintenu par des étudiants, pour des étudiants. L'idée originale
+Bienvenue sur la page du template LaTeX pour le cours GEL-1001. **Ce template n’est pas officiel.** Bien qu'il utilise la même classe que le template fourni, certaines
+modifications y ont été apportées.
+Il est maintenu par des étudiants, pour des étudiants. L'idée originale
 provient de l'équipe *SécuritAIR*.
 
 ## Installation
