@@ -1,7 +1,9 @@
 # design-template
 
 Bienvenue sur la page du template LaTeX pour le cours GEL-1001. **Ce template n’est pas officiel.** Bien qu'il utilise la même classe que le template fourni, certaines
-modifications y ont été apportées.
+modifications y ont été apportées. L'objectif de ce repo est tout de même de founir un
+gabarit permettant d'obtenir des résultats quasi-identiques à ceux obtenus à l'aide
+du gabarit officiel.
 Il est maintenu par des étudiants, pour des étudiants. L'idée originale
 provient de l'équipe *SécuritAIR*.
 
@@ -48,9 +50,24 @@ Le template fourni pour le projet commence à dater. Le but de ce projet est de 
 non seulement un bon gabarit, mais aussi des ressources et commentaires utiles pour 
 aider les étudiants avec leur apprentissage de LaTeX.
 
+Ce gabarit vise à:
+
+* Encouranger les étudiants à appliquer les bonnes pratiques en développement.
+  * Utiliser Git.
+  * Introduire à la contribution open source.
+  * Encourager à partager ses connaissances avec les autres.
+
+* Offrir un *log* des modifications plus sensé à l'aide de messages de commits et de
+  pull requests bien documentés.
+
+* Réduire la complexité liée à l'apprentissage de LaTeX en offrant une foule de ressources
+  groupées au même endroit.
+
 ## Ressources LaTeX
 
 À venir!
+
+Un wiki pour ce projet sera créé sous peu.
 
 ## Contribuer
 
