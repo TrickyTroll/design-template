@@ -7,12 +7,12 @@ provient de l'équipe *SécuritAIR*.
 
 Avez vous déjà utilisé [Git](https://git-scm.com)?
 
-* Si non, dirigez vous vers la [documentation](https://git-scm.com/doc)
+* Sinon, dirigez-vous vers la [documentation](https://git-scm.com/doc)
 * Si oui, il suffit de d'utiliser ce repo comme
   [template](https://github.com/TrickyTroll/design-template/generate)
   pour votre projet.
 
-Bien que ce *template* fourni une
+Bien que ce *template* fournit une
 [action Github](https://github.com/features/actions) pour compiler le rapport,
 une [installation](https://www.latex-project.org/get/) 
 locale de LaTeX vous sera fort utile.
@@ -43,7 +43,7 @@ D'autres gabarits seront ajoutés au cours de la session!
 ## Motivation
 
 Le template fourni pour le projet commence à dater. Le but de ce projet est de fournir
-non-seulement un bon gabarit, mais aussi des ressources et commentaires utiles pour 
+non seulement un bon gabarit, mais aussi des ressources et commentaires utiles pour 
 aider les étudiants avec leur apprentissage de LaTeX.
 
 ## Ressources LaTeX
@@ -52,5 +52,5 @@ aider les étudiants avec leur apprentissage de LaTeX.
 
 ## Contribuer
 
-N'hésitez pas à ajouter vos propres *templates* en ouvant un
+N'hésitez pas à ajouter vos propres *templates* en ouvrant un
 [pull request](https://github.com/TrickyTroll/design-template/pulls)
